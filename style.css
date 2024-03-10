@@ -46,3 +46,44 @@ body {
   .photo:hover {
       transform: scale(1.1);
   }
+
+  footer {
+    box-shadow: 2px 17px 22px -11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 17px 22px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 17px 22px -11px rgba(0,0,0,0.75);
+    background-color: #080909;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0.7;
+  }
+  
+  p.footertext {
+    font-size: 10px;
+    align-self: center;
+  }
+
+  p.copyright {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    line-height: 40px;
+    font-size: 7px;
+    text-align: start;
+    bottom: 10;
+    font-size: 8px;
+  }
+
+  p.footerphoto {
+    font-size: 8px;
+    align-self: center;
+  }
+
+  a {
+    text-decoration-color: #fff;
+    color: #fff;
+  }
